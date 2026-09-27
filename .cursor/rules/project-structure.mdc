@@ -1,0 +1,64 @@
+---
+description: Enviroen Unity 项目目录结构与代码放置约定
+alwaysApply: true
+---
+
+# Enviroen 项目结构
+
+Unity 项目（productName: Enviroen），脚本按「框架 / 热更基座 / 热更逻辑 / 资源」分层。
+
+## 顶层
+
+- `Assets/` — 主内容
+- `Packages/` — 包依赖（含本地 `com.kybernetik.animancer`、`com.sjai013.abilitysystem`）
+- `Bundles/` — YooAsset 构建产物
+- `ProjectSettings/`、`Library/` 等 — Unity 工程标准目录
+
+## Assets 分层
+
+| 路径 | 职责 |
+|------|------|
+| `Assets/VaceonEngine/` | 自研运行时框架（模块、内存池、工具） |
+| `Assets/GameScripts/Main/` | 启动/引导（如 YooAsset 启动） |
+| `Assets/GameScripts/HotFix/GameBase/` | 热更抽象与接口（命令、输入、状态机、元素系统、GAS 等） |
+| `Assets/GameScripts/HotFix/GameLogic/` | 热更具体实现（命令实现、状态机实现、角色大脑等） |
+| `Assets/GameScripts/HotFix/GameProto/` | 协议/数据相关 |
+| `Assets/AssetRaw/` | 原始资源（音频、配置、DataSO、动画、模型、UI、场景） |
+| `Assets/AdditionPackage/` | 第三方包嵌入（Character Controller Pro） |
+| `Assets/Scenes/`、`Assets/Test/` | 场景与测试脚本 |
+| `Assets/Editor/`、`Assets/Resources/` | 编辑器扩展与 Resources 加载 |
+
+## VaceonEngine（`Assets/VaceonEngine/Runtime/`）
+
+- `Module/` — 模块系统：`ModuleSystem`、`GameModule`、`RootModule`、`SystemLocator`；子模块含 `FsmModule`、`ObjectPoolModule`、`DataMoudle`、`DataStruct`
+- `MemoryPool/` — 内存池
+- `Utils/`、`Exception/` — 工具与框架异常
+
+## GameBase 子系统（接口/抽象）
+
+- `CommandManager`、`CommandBuffer` — 命令与缓冲
+- `MyInputManager` — 输入
+- `StateMachineManager` — 状态机
+- `元素状态系统` — 元素形态抽象
+- `My Gameplay Ability System` — 能力/属性/Tag
+- `全局系统定位器` — 系统定位
+
+## GameLogic 实现对应关系
+
+- `CommandSystemImpl` / `CommandBufferSystemIImpl` → 命令与缓冲实现
+- `InputSystemImpl` / `InputEntityClass` → 输入实现
+- `StateMachineImpl` → 状态机实现
+- `元素状态实现` → 元素系统实现
+- `CharacterBrain`、`CameraControl`、`Animancer` → 角色/相机/动画
+
+## 关键代码约定
+
+- 新抽象/接口 → `GameScripts/HotFix/GameBase/`
+- 新玩法实现 → `GameScripts/HotFix/GameLogic/`（与 GameBase 子系统对应）
+- 框架级模块 → `VaceonEngine/Runtime/`
+- 可配置资源/SO → `AssetRaw/`（勿塞进 Scripts）
+- 第三方包优先 `Packages/` 或 `AdditionPackage/`，勿混入 `GameScripts`
+
+## 主要外部依赖
+
+YooAsset、Netcode for GameObjects、Input System、URP、Cinemachine、Animancer、Ability System、Character Controller Pro、Unity MCP

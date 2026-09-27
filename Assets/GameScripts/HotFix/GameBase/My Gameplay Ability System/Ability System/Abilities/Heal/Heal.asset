@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c353d48aa733e45b4dba37b80cc8c5, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  AbilityName: Heal
+  AbilityTags:
+    AssetTag: {fileID: 0}
+    CancelAbilitiesWithTags: []
+    BlockAbilitiesWithTags: []
+    ActivationOwnedTags: []
+    OwnerTags:
+      RequireTags: []
+      IgnoreTags: []
+    SourceTags:
+      RequireTags: []
+      IgnoreTags: []
+    TargetTags:
+      RequireTags: []
+      IgnoreTags: []
+  Cost: {fileID: 11400000, guid: 5409903646a43314abea32f6289472e1, type: 2}
+  Cooldown: {fileID: 11400000, guid: 0a4a5365d92d9d44fbdb6b3818e3b8bd, type: 2}
+  GameplayEffect: {fileID: 11400000, guid: c3db57121bced3f409c830236e19fd8a, type: 2}

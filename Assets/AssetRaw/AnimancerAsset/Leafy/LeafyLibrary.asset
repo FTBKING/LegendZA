@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f08fdd50e79d0c4bb235a5c2696516d, type: 3}
+  m_Name: LeafyLibrary
+  m_EditorClassIdentifier: 
+  _Definition:
+    _Transitions:
+    - {fileID: 11400000, guid: 250bc60dac6d10e48af8d0172508228c, type: 2}
+    - {fileID: 11400000, guid: dd91efb7eab38ab48b6105e88140b940, type: 2}
+    - {fileID: 11400000, guid: 6b3aac5765f16584db49873ce5e3880f, type: 2}
+    - {fileID: 11400000, guid: 6953b4278f0f5d14991eabd31125c7e9, type: 2}
+    - {fileID: 11400000, guid: 5b43210e150ecc449af707af4ba8d5ed, type: 2}
+    _Modifiers: []
+    _Aliases: []
+    _AliasAllTransitions: 1
+--- !u!114 &4708118866960329312
+MonoBehaviour:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04d4a67566152e40aaa01b8b745ff6b, type: 3}
+  m_Name: Editor Data
+  m_EditorClassIdentifier: 
+  _Library: {fileID: 11400000}
+  _TransitionSortMode: 0

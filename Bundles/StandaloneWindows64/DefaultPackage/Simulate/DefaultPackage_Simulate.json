@@ -1,0 +1,120 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 1,
+    "BuildPipeline": "EditorSimulateBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "PackageNote": "2026/9/17 20:20:14",
+    "AssetList": [
+        {
+            "Address": "Glaceon",
+            "AssetPath": "Assets/AssetRaw/Models/Glaceon.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Leafy",
+            "AssetPath": "Assets/AssetRaw/Models/Leafy.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Sylveon",
+            "AssetPath": "Assets/AssetRaw/Models/Sylveon.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Ball",
+            "AssetPath": "Assets/AssetRaw/Prefabs/Ball.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "HFSMLeafy",
+            "AssetPath": "Assets/AssetRaw/Prefabs/HFSMLeafy.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "hitByBall",
+            "AssetPath": "Assets/AssetRaw/Prefabs/hitByBall.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Spawner",
+            "AssetPath": "Assets/AssetRaw/Prefabs/Spawner.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "WildLeafeon",
+            "AssetPath": "Assets/AssetRaw/Prefabs/WildLeafeon.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_assets_assetraw_models_glaceon.bundle",
+            "UnityCRC": 0,
+            "FileHash": "fe0bf54178713531b9597cc4a242d46e",
+            "FileCRC": "00000000",
+            "FileSize": 32383868,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_models_leafy.bundle",
+            "UnityCRC": 0,
+            "FileHash": "ddf6aa57630950ecb698faaddb6bbdba",
+            "FileCRC": "00000000",
+            "FileSize": 95435712,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_models_sylveon.bundle",
+            "UnityCRC": 0,
+            "FileHash": "0f719d1ab10dc3602e559bc823f2e8fc",
+            "FileCRC": "00000000",
+            "FileSize": 49018620,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_prefabs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c400a4b31545a7407a3940daa2f51cce",
+            "FileCRC": "00000000",
+            "FileSize": 2409876,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}
