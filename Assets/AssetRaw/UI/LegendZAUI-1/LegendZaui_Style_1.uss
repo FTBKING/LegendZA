@@ -1,0 +1,484 @@
+:root {
+    --color-Black-00: rgba(0, 0, 0, 0);
+    --color-DarkSlateBlue-23517c00: rgba(35, 81, 124, 0);
+    --color-DarkSlateGray-2d284cff: rgb(45, 40, 76);
+    --color-LightSlateGray-8c89aaff: rgb(140, 137, 170);
+    --color-LightSlateGray-879bb4ff: rgb(135, 155, 180);
+    --color-LightSlateGray-7b9bb51f: rgba(123, 155, 181, 0.12);
+    --color-LightSlateGray-7b9bb5ff: rgb(123, 155, 181);
+    --color-White: rgb(255, 255, 255);
+    --color-DarkSlateGray-30303eff: rgb(48, 48, 62);
+    --color-Silver-bcc5d040: rgba(188, 197, 208, 0.25);
+    --color-MediumSeaGreen-40cb71ff: rgb(64, 203, 113);
+    --color-DarkSlateGray-424d61ff: rgb(66, 77, 97);
+    --color-MediumTurquoise-30b8deff: rgb(48, 184, 222);
+    --color-LightSlateGray-898e93ff: rgb(137, 142, 147);
+    --color-DarkKhaki-a9cf5600: rgba(169, 207, 86, 0);
+    --color-DarkSlateGray-272440c7: rgba(39, 36, 64, 0.78);
+    --color-CornflowerBlue-6686edff: rgb(102, 134, 237);
+    --color-Gainsboro-d9d9dfff: rgb(217, 217, 223);
+    --color-YellowGreen-9db637ff: rgb(157, 182, 55);
+    --color-DarkOrchid-9145b7ff: rgb(145, 69, 183);
+    --color-DarkGray-9aa5beff: rgb(154, 165, 190);
+    --color-DimGray-775b55ff: rgb(119, 91, 85);
+    --color-Sienna-996135ff: rgb(153, 97, 53);
+    --color-YellowGreen-b4d33cff: rgb(180, 211, 60);
+    --font-size-43: 43px;
+    --font-size-36: 36px;
+    --font-size-18: 18px;
+    --font-size-28: 28px;
+    --font-size-22: 22px;
+    --font-size-30: 30px;
+    --font-size-34: 34px;
+    --font-size-27: 27px;
+    --font-size-29: 29px;
+    --font-size-23: 23px;
+    --spacing-0: 0px;
+    --border-width-1: 1px;
+    --border-width-2: 2px;
+    --radius-10000: 10000px;
+    --radius-15: 15px;
+    --radius-4: 4px;
+    --radius-28: 28px;
+    --radius-2: 2px;
+}
+
+.style-寶可夢選單-1596275090 {
+}
+
+.style-Main-menu-1153996907 {
+    background-color: var(--color-Black-00);
+}
+
+.style-Menu-backdrop-1334573863 {
+    background-color: var(--color-DarkSlateBlue-23517c00);
+}
+
+.style-Header-tab-952583865 {
+    -unity-background-image-tint-color: var(--color-DarkSlateGray-2d284cff);
+}
+
+.style-Menu-watermark-320321657 {
+    -unity-background-image-tint-color: var(--color-LightSlateGray-8c89aaff);
+}
+
+.style-Bullet-508237197 {
+    background-color: var(--color-LightSlateGray-879bb4ff);
+    border-top-left-radius: var(--radius-10000);
+    border-top-right-radius: var(--radius-10000);
+    border-bottom-right-radius: var(--radius-10000);
+    border-bottom-left-radius: var(--radius-10000);
+}
+
+.style-Bar-1861425708 {
+    background-color: var(--color-LightSlateGray-879bb4ff);
+}
+
+.style-Menu-wordmark-1743013686 {
+    -unity-background-image-tint-color: var(--color-LightSlateGray-879bb4ff);
+}
+
+.style-Menu-option-1777697965 {
+    background-color: var(--color-LightSlateGray-7b9bb51f);
+    border-left-width: var(--border-width-1);
+    border-right-width: var(--border-width-1);
+    border-top-width: var(--border-width-1);
+    border-bottom-width: var(--border-width-1);
+    border-left-color: var(--color-LightSlateGray-7b9bb5ff);
+    border-right-color: var(--color-LightSlateGray-7b9bb5ff);
+    border-top-color: var(--color-LightSlateGray-7b9bb5ff);
+    border-bottom-color: var(--color-LightSlateGray-7b9bb5ff);
+}
+
+.style-Option-label-1972090084 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-LightSlateGray-879bb4ff);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-43);
+    line-height: 51.6px;
+}
+
+.style-Pokémon-header-symbol-214621986 {
+    -unity-background-image-tint-color: var(--color-White);
+}
+
+.style-Section-heading-718744754 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-36);
+    line-height: 41.396px;
+}
+
+.style-Stick-ring-751720530 {
+    border-top-left-radius: var(--radius-10000);
+    border-top-right-radius: var(--radius-10000);
+    border-bottom-right-radius: var(--radius-10000);
+    border-bottom-left-radius: var(--radius-10000);
+    border-left-width: var(--border-width-2);
+    border-right-width: var(--border-width-2);
+    border-top-width: var(--border-width-2);
+    border-bottom-width: var(--border-width-2);
+    border-left-color: var(--color-White);
+    border-right-color: var(--color-White);
+    border-top-color: var(--color-White);
+    border-bottom-color: var(--color-White);
+}
+
+.style-Stick-letter-1460915310 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-18);
+    line-height: 20.698px;
+}
+
+.style-Action-label-1056258401 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-28);
+    line-height: 33.6px;
+}
+
+.style-Controller-button-699234048 {
+    background-color: var(--color-White);
+    border-top-left-radius: var(--radius-15);
+    border-top-right-radius: var(--radius-15);
+    border-bottom-right-radius: var(--radius-15);
+    border-bottom-left-radius: var(--radius-15);
+}
+
+.style-Button-letter-1443660157 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-DarkSlateGray-30303eff);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-22);
+    line-height: 25.298px;
+}
+
+.style-Party-card-523305805 {
+    background-color: var(--color-Silver-bcc5d040);
+    border-top-left-radius: var(--radius-4);
+    border-top-right-radius: var(--radius-4);
+    border-bottom-right-radius: var(--radius-4);
+    border-bottom-left-radius: var(--radius-4);
+}
+
+.style-Health-bar-1203686694 {
+    -unity-background-image-tint-color: var(--color-MediumSeaGreen-40cb71ff);
+}
+
+.style-Experience-track-300373163 {
+    -unity-background-image-tint-color: var(--color-DarkSlateGray-424d61ff);
+}
+
+.style-Experience-1975283673 {
+    -unity-background-image-tint-color: var(--color-MediumTurquoise-30b8deff);
+}
+
+.style-Level-1054595093 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-30);
+    line-height: 39px;
+}
+
+.style-Party-card-890283840 {
+    background-color: var(--color-White);
+    border-top-left-radius: var(--radius-4);
+    border-top-right-radius: var(--radius-4);
+    border-bottom-right-radius: var(--radius-4);
+    border-bottom-left-radius: var(--radius-4);
+}
+
+.style-Experience-track-300373163 {
+    -unity-background-image-tint-color: var(--color-LightSlateGray-898e93ff);
+}
+
+.style-Level-1355147991 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-DarkSlateGray-30303eff);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-30);
+    line-height: 39px;
+}
+
+.style-Selection-marker-1399102220 {
+    background-color: var(--color-DarkKhaki-a9cf5600);
+}
+
+.style-Selected-Pokémon-details-79264942 {
+    background-color: var(--color-DarkSlateGray-272440c7);
+    border-top-left-radius: var(--radius-28);
+    border-top-right-radius: var(--radius-28);
+    border-bottom-right-radius: var(--radius-28);
+    border-bottom-left-radius: var(--radius-28);
+}
+
+.style-Pokémon-name-1035575921 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-DarkSlateGray-30303eff);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-34);
+    line-height: 47.6px;
+}
+
+.style-Selected-level-1129123843 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-DarkSlateGray-30303eff);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-30);
+    line-height: 36px;
+}
+
+.style-Gender-badge-1088499148 {
+    background-color: var(--color-CornflowerBlue-6686edff);
+    border-top-left-radius: var(--radius-10000);
+    border-top-right-radius: var(--radius-10000);
+    border-bottom-right-radius: var(--radius-10000);
+    border-bottom-left-radius: var(--radius-10000);
+}
+
+.style-Gender-376665474 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-27);
+    line-height: 31.047px;
+}
+
+.style-Type-divider-661396068 {
+    background-color: var(--color-Gainsboro-d9d9dfff);
+}
+
+.style-Type-badge-1416469559 {
+    background-color: var(--color-DarkSlateGray-30303eff);
+    border-top-left-radius: var(--radius-4);
+    border-top-right-radius: var(--radius-4);
+    border-bottom-right-radius: var(--radius-4);
+    border-bottom-left-radius: var(--radius-4);
+}
+
+.style-Type-symbol-1797886024 {
+    background-color: var(--color-YellowGreen-9db637ff);
+}
+
+.style-Type-label-1806268397 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: normal;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-center;
+    font-size: var(--font-size-22);
+    line-height: 26.4px;
+}
+
+.style-Type-symbol-1885996267 {
+    background-color: var(--color-DarkOrchid-9145b7ff);
+}
+
+.style-Hit-points-2000733242 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-29);
+    line-height: 34.8px;
+}
+
+.style-Move-plate-1151747828 {
+    -unity-background-image-tint-color: var(--color-DarkGray-9aa5beff);
+}
+
+.style-Type-symbol-161354571 {
+    -unity-background-image-tint-color: var(--color-DarkOrchid-9145b7ff);
+}
+
+.style-Move-enhancement-522264331 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-White);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-29);
+    line-height: 33.347px;
+}
+
+.style-Type-symbol-1542823746 {
+    -unity-background-image-tint-color: var(--color-YellowGreen-9db637ff);
+}
+
+.style-Type-symbol-1160350271 {
+    -unity-background-image-tint-color: var(--color-DimGray-775b55ff);
+}
+
+.style-Type-symbol-161354571 {
+    -unity-background-image-tint-color: var(--color-Sienna-996135ff);
+}
+
+.style-Trigger-button-2008487807 {
+    -unity-background-image-tint-color: var(--color-DarkSlateGray-30303eff);
+}
+
+.style-Key-label-1235221632 {
+    margin-left: var(--spacing-0);
+    margin-right: var(--spacing-0);
+    margin-top: var(--spacing-0);
+    margin-bottom: var(--spacing-0);
+    padding-left: var(--spacing-0);
+    padding-right: var(--spacing-0);
+    padding-top: var(--spacing-0);
+    padding-bottom: var(--spacing-0);
+    color: var(--color-DarkSlateGray-30303eff);
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+    font-size: var(--font-size-23);
+    line-height: 23px;
+}
+
+.style-Controller-key-1441956806 {
+    background-color: var(--color-White);
+    border-top-left-radius: var(--radius-2);
+    border-top-right-radius: var(--radius-2);
+    border-bottom-right-radius: var(--radius-2);
+    border-bottom-left-radius: var(--radius-2);
+}
+
+.style-Footer-accent-1976361174 {
+    background-color: var(--color-YellowGreen-b4d33cff);
+}
+
+
+/* --- Converter patch: horizontal ScrollView content-container fix --- */
+.unity-scroll-view__content-container--horizontal {
+    flex-direction: row;
+}
