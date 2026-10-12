@@ -62,3 +62,8 @@ Unity 项目（productName: Enviroen），脚本按「框架 / 热更基座 / �
 ## 主要外部依赖
 
 YooAsset、Netcode for GameObjects、Input System、URP、Cinemachine、Animancer、Ability System、Character Controller Pro、Unity MCP
+
+### 执行操作规范
+
+- YooAsset不会的必须去官网查文档：https://www.yooasset.com/
+

@@ -8,7 +8,7 @@ using VaceonEngine.Runtime.SimpleEventbus;
 /// DataModule 最小闭环验证。
 /// 用法：挂到场景空物体上，Play 后看 Console。
 /// </summary>
-public class GameApp : MonoBehaviour
+public class GameApp :MonoBehaviour
 {
     [SerializeField] private string packageName = "DefaultPackage";
 

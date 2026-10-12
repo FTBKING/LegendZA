@@ -8,7 +8,7 @@
     "BuildPipeline": "EditorSimulateBuildPipeline",
     "PackageName": "DefaultPackage",
     "PackageVersion": "Simulate",
-    "PackageNote": "2026/9/17 20:20:14",
+    "PackageNote": "2026/10/12 20:49:44",
     "AssetList": [
         {
             "Address": "Glaceon",
@@ -27,11 +27,43 @@
             "DependBundleIDs": []
         },
         {
+            "Address": "body_a",
+            "AssetPath": "Assets/AssetRaw/Models/Materials/body_a.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "body_b",
+            "AssetPath": "Assets/AssetRaw/Models/Materials/body_b.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "l_eye",
+            "AssetPath": "Assets/AssetRaw/Models/Materials/l_eye.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "r_eye",
+            "AssetPath": "Assets/AssetRaw/Models/Materials/r_eye.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
             "Address": "Sylveon",
             "AssetPath": "Assets/AssetRaw/Models/Sylveon.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2,
+            "BundleID": 6,
             "DependBundleIDs": []
         },
         {
@@ -39,7 +71,15 @@
             "AssetPath": "Assets/AssetRaw/Prefabs/Ball.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3,
+            "BundleID": 7,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "GameApp",
+            "AssetPath": "Assets/AssetRaw/Prefabs/GameApp.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
             "DependBundleIDs": []
         },
         {
@@ -47,7 +87,7 @@
             "AssetPath": "Assets/AssetRaw/Prefabs/HFSMLeafy.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3,
+            "BundleID": 7,
             "DependBundleIDs": []
         },
         {
@@ -55,7 +95,7 @@
             "AssetPath": "Assets/AssetRaw/Prefabs/hitByBall.anim",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3,
+            "BundleID": 7,
             "DependBundleIDs": []
         },
         {
@@ -63,7 +103,15 @@
             "AssetPath": "Assets/AssetRaw/Prefabs/Spawner.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3,
+            "BundleID": 7,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "UIDocument",
+            "AssetPath": "Assets/AssetRaw/Prefabs/UIDocument.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
             "DependBundleIDs": []
         },
         {
@@ -71,7 +119,47 @@
             "AssetPath": "Assets/AssetRaw/Prefabs/WildLeafeon.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3,
+            "BundleID": 7,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MenuData",
+            "AssetPath": "Assets/AssetRaw/SO/MenuData.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "BoxUi-1",
+            "AssetPath": "Assets/AssetRaw/UI/LegendZAUI-1/BoxUi-1.uxml",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "LegendZaui_Style_1",
+            "AssetPath": "Assets/AssetRaw/UI/LegendZAUI-1/LegendZaui_Style_1.uss",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Method-1",
+            "AssetPath": "Assets/AssetRaw/UI/LegendZAUI-1/Method-1.uxml",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "New Panel Settings",
+            "AssetPath": "Assets/AssetRaw/UI/LegendZAUI-1/New Panel Settings.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
             "DependBundleIDs": []
         }
     ],
@@ -97,6 +185,46 @@
             "DependBundleIDs": []
         },
         {
+            "BundleName": "defaultpackage_assets_assetraw_models_materials_body_a.bundle",
+            "UnityCRC": 0,
+            "FileHash": "3ca81f7e72b50da9e7c21efbfed3342d",
+            "FileCRC": "00000000",
+            "FileSize": 3894,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_models_materials_body_b.bundle",
+            "UnityCRC": 0,
+            "FileHash": "629a294139605ce996048ac1b25ab405",
+            "FileCRC": "00000000",
+            "FileSize": 3893,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_models_materials_l_eye.bundle",
+            "UnityCRC": 0,
+            "FileHash": "f6dc3e1bf9ddba9817fd4f5f3d0090ef",
+            "FileCRC": "00000000",
+            "FileSize": 3892,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_models_materials_r_eye.bundle",
+            "UnityCRC": 0,
+            "FileHash": "14582e8786c4f207a09325562328567b",
+            "FileCRC": "00000000",
+            "FileSize": 3893,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
             "BundleName": "defaultpackage_assets_assetraw_models_sylveon.bundle",
             "UnityCRC": 0,
             "FileHash": "0f719d1ab10dc3602e559bc823f2e8fc",
@@ -111,7 +239,27 @@
             "UnityCRC": 0,
             "FileHash": "c400a4b31545a7407a3940daa2f51cce",
             "FileCRC": "00000000",
-            "FileSize": 2409876,
+            "FileSize": 2413505,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_so.bundle",
+            "UnityCRC": 0,
+            "FileHash": "f2e91e60f8b60bd06e6488430e6fe8d4",
+            "FileCRC": "00000000",
+            "FileSize": 471,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_assetraw_ui_legendzaui-1.bundle",
+            "UnityCRC": 0,
+            "FileHash": "305c4e6245f4abea33639c623f4699d2",
+            "FileCRC": "00000000",
+            "FileSize": 118998,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []

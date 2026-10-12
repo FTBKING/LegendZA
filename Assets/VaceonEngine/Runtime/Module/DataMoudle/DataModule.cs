@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using VaceonEngine;
@@ -66,7 +66,39 @@ namespace GameScripts.HotFix.GameBase.DataSystem
 
             InitializationOperation initOperation;
 #if UNITY_EDITOR
-            PackageInvokeBuildResult buildResult = EditorSimulateModeHelper.SimulateBuild(packageName);
+            const int maxSimulateBuildAttempts = 3;
+            PackageInvokeBuildResult buildResult = null;
+            Exception buildException = null;
+
+            for (int attempt = 1; attempt <= maxSimulateBuildAttempts; attempt++)
+            {
+                try
+                {
+                    buildResult = EditorSimulateModeHelper.SimulateBuild(packageName);
+                    buildException = null;
+                }
+                catch (Exception exception)
+                {
+                    buildException = exception;
+                }
+
+                if (buildResult != null)
+                {
+                    break;
+                }
+
+                if (attempt == maxSimulateBuildAttempts)
+                {
+                    Log.Error(
+                        $"编辑器模拟清单构建失败，已重试 {maxSimulateBuildAttempts} 次：{buildException}");
+                    yield break;
+                }
+
+                Log.Warning(
+                    $"编辑器模拟清单构建失败，将在短暂等待后重试（{attempt}/{maxSimulateBuildAttempts}）。");
+                yield return new UnityEngine.WaitForSecondsRealtime(0.25f);
+            }
+
             var parameters = new EditorSimulateModeParameters
             {
                 EditorFileSystemParameters =

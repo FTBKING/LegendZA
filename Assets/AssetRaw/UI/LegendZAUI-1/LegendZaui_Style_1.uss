@@ -23,6 +23,8 @@
     --color-DimGray-775b55ff: rgb(119, 91, 85);
     --color-Sienna-996135ff: rgb(153, 97, 53);
     --color-YellowGreen-b4d33cff: rgb(180, 211, 60);
+    --color-LightSteelBlue-b2cce6ff: rgb(178, 204, 230);
+    --color-MidnightBlue-14213dff: rgb(20, 33, 61);
     --font-size-43: 43px;
     --font-size-36: 36px;
     --font-size-18: 18px;
@@ -475,6 +477,14 @@
 
 .style-Footer-accent-1976361174 {
     background-color: var(--color-YellowGreen-b4d33cff);
+}
+
+.style-队伍空图标框-1-684561070 {
+    -unity-background-image-tint-color: var(--color-LightSteelBlue-b2cce6ff);
+}
+
+.style-盒子面板-真正半透明-888818091 {
+    -unity-background-image-tint-color: var(--color-MidnightBlue-14213dff);
 }
 
 

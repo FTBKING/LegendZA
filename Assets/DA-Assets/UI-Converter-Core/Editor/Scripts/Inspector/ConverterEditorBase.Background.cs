@@ -112,7 +112,7 @@ namespace DA_Assets.UCC
                 }
             };
 
-            img.style.aspectRatio = new StyleRatio((float)tex.width / tex.height);
+            //img.style.aspectRatio = new StyleRatio((float)tex.width / tex.height);
             wrap.Add(img);
 #else
             float aspect = (float)tex.height / tex.width;
